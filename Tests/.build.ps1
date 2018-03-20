@@ -220,6 +220,7 @@ task TestFunctions {
 		'Get-BuildProperty'
 		'Get-BuildSynopsis'
 		'Invoke-BuildExec'
+		'Remove-BuildItem'
 		'Set-BuildData'
 		'Set-BuildHeader'
 		'Test-BuildAsset'
