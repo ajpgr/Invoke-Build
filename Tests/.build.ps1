@@ -285,6 +285,7 @@ task ShowHelp {
 		'Get-BuildProperty'
 		'Get-BuildSynopsis'
 		'Invoke-BuildExec'
+		'Remove-BuildItem'
 		'Resolve-MSBuild'
 		'Test-BuildAsset'
 		'Use-BuildAlias'

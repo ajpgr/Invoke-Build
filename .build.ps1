@@ -35,9 +35,9 @@ task Markdown {
 	exec { Convert-Markdown Release-Notes }
 }
 
-# Synopsis: Remove generated and temp files.
+# Synopsis: Remove temporary items.
 task Clean {
-	remove z, z.*, README.htm, Release-Notes.htm, Invoke-Build.*.nupkg
+	remove z, *\z, *\z.*, README.htm, Release-Notes.htm, Invoke-Build.*.nupkg
 }
 
 # Synopsis: Build the PowerShell help file.
